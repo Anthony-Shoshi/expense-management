@@ -9,7 +9,9 @@ return array(
     'Services\\' => array($baseDir . '/services'),
     'Routers\\' => array($baseDir . '/routers'),
     'Repositories\\' => array($baseDir . '/repositories'),
+    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'Models\\' => array($baseDir . '/models'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
+    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Controllers\\' => array($baseDir . '/controllers'),
 );

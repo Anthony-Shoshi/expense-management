@@ -11,9 +11,9 @@ class ExpenseController extends Controller
 
     private $service;
 
-    public function __construct()
+    public function __construct(ExpenseService $service = null)
     {
-        $this->service = new ExpenseService();
+        $this->service = $service ?: new ExpenseService();
     }
 
     public function searchExpenses()
